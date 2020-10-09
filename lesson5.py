@@ -16,7 +16,7 @@ try:
     select = Select(browser.find_element_by_class_name("custom-select"))
     select.select_by_value(sum)  # ищем элемент с текстом "Python"
 
-    # input_value = browser.find_element_by_css_selector('[id="answer"]')
+    # input_value = browser.find_element_by_css_selector('[id="answer1"]')
     # input_value.send_keys(y)
     # check_box = browser.find_element_by_css_selector('[id="robotCheckbox"]')
     # check_box.click()
@@ -27,3 +27,5 @@ try:
 finally:
     time.sleep(10)
     browser.quit()
+
+
