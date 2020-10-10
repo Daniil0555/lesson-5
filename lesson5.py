@@ -25,7 +25,7 @@ try:
     submit_form = browser.find_element_by_css_selector('[type="submit"]')
     submit_form.click()
 finally:
-    time.sleep(10)
+    time.sleep(11)
     browser.quit()
 
 
